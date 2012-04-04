@@ -1,0 +1,6 @@
+Compilation and unit tests are provided by maven.
+
+A console driver can also be run after compilation using (where mvn_local is the local maven repo path):
+java -cp .;%mvn_local%\com\google\guava\guava\11.0.1\guava-11.0.1.jar com.rally.interview.kgarner.driver.Driver
+
+Enjoy
